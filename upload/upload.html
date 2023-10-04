@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Mensagens</title>
+
+    <link rel="stylesheet" href="upload.css">
+
+</head>
+<body>
+
+    <p>Mande uma mensagem que aparecerá aleatoriamente entre muitas outras!</p>
+
+    <form action="upload.php" method="POST">
+
+        <label for="mensagem"><p>Mensagem:</p></label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required minlength="10" maxlength="100" ></textarea>
+
+        <input type="submit" value="Enviar" class="botaoEnviar">
+
+    </form>
+
+    
+</body>
+</html>

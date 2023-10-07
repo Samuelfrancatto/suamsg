@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) and (orientation: portrait){
     textarea{
         width: 400px;
         height: 400px;

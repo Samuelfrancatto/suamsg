@@ -181,7 +181,7 @@ a:visited{
     color: black;
 }
 
-.dica{
+.dicaPC{
     position: absolute;
     top: 90%;
     left: 50%;
@@ -190,4 +190,8 @@ a:visited{
     transition: opacity 1s;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.dicaCel{
+    display: none;
 }

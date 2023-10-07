@@ -35,7 +35,7 @@ cores.forEach((div) => {
 
 
 function mostrarMensagem(){
-    var mensagem = document.getElementById('dica')
+    var mensagem = document.getElementById('dicaPC')
     mensagem.style.opacity = '1'
 
     setTimeout(function() {
@@ -51,3 +51,11 @@ document.addEventListener('keydown', function(event) {
         location.reload()
     }
 })
+
+const dicaCel = document.getElementById('dicaCel')
+
+dicaCel.addEventListener('click', atualizar)
+
+function atualizar(){
+    location.reload()
+}
